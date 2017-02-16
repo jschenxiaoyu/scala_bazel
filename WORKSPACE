@@ -6,8 +6,3 @@ git_repository(
 
 load("@io_bazel_rules_scala//scala:scala.bzl", "scala_repositories")
 scala_repositories()
-
-maven_jar(
-    name = "spark_core",
-    artifact = "org.apache.spark:spark-core_2.11:2.1.0",
-)
